@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2702C2B62A5EC97E00ED1D1D /* protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2702C2B52A5EC97E00ED1D1D /* protocol.swift */; };
+		2702C2BA2A5ED7A300ED1D1D /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2702C2B92A5ED7A300ED1D1D /* Cell.swift */; };
 		276B104E2A5D561700B66625 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276B104D2A5D561700B66625 /* AppDelegate.swift */; };
 		276B10502A5D561700B66625 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276B104F2A5D561700B66625 /* SceneDelegate.swift */; };
 		276B10522A5D561700B66625 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276B10512A5D561700B66625 /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2702C2B52A5EC97E00ED1D1D /* protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocol.swift; sourceTree = "<group>"; };
+		2702C2B92A5ED7A300ED1D1D /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		276B104A2A5D561700B66625 /* collectionCellTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = collectionCellTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		276B104D2A5D561700B66625 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		276B104F2A5D561700B66625 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 				276B104D2A5D561700B66625 /* AppDelegate.swift */,
 				276B104F2A5D561700B66625 /* SceneDelegate.swift */,
 				276B10512A5D561700B66625 /* ViewController.swift */,
+				2702C2B92A5ED7A300ED1D1D /* Cell.swift */,
+				2702C2B52A5EC97E00ED1D1D /* protocol.swift */,
 				276B10532A5D561700B66625 /* Main.storyboard */,
 				276B10562A5D561800B66625 /* Assets.xcassets */,
 				276B10582A5D561800B66625 /* LaunchScreen.storyboard */,
@@ -260,7 +266,9 @@
 			files = (
 				276B10522A5D561700B66625 /* ViewController.swift in Sources */,
 				276B104E2A5D561700B66625 /* AppDelegate.swift in Sources */,
+				2702C2BA2A5ED7A300ED1D1D /* Cell.swift in Sources */,
 				276B10502A5D561700B66625 /* SceneDelegate.swift in Sources */,
+				2702C2B62A5EC97E00ED1D1D /* protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
